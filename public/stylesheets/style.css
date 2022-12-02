@@ -3,6 +3,25 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  color: rgb(243, 243, 243);
+  padding: 0 10px 0 10px;
+  background-color: rgb(78, 78, 78);
+  border-radius: 10px;
+}
+
+.message-data {
+  height: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+.message-text {
+  margin-top: 0;
 }
